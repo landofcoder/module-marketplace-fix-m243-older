@@ -1,0 +1,30 @@
+{
+    "name": "landofcoder/module-marketplace-fix-m243",
+    "description": "Marketplace Fix Issues for magento 2.4.3 and older",
+    "keywords": [
+        "landofcoder",
+        "landofcoder marketplace",
+        "landofcoder marketplace extension"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Lof Marketplace Fix M243 Extension"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\MarketplaceFixM243\\": ""
+        }
+    }
+}
